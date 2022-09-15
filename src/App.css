@@ -1,0 +1,49 @@
+/* Navbar.js */
+
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  cursor: pointer;
+}
+.nav-section {
+  display: flex;
+  justify-content: center;
+}
+.menu-area {
+}
+.menu-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.menu-list li {
+  padding: 10px;
+}
+.menu-search {
+  float: right;
+  margin-right: 5%;
+}
+.menu-search input {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+/* ProductCard.js */
+.products {
+  cursor: pointer;
+}
+
+.product-image {
+  width: 264px;
+  height: 396px;
+}
+
+/* ProductDetail.js */
+.product-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.product-img img {
+  width: 50%;
+}
